@@ -130,7 +130,7 @@ export default function Component() {
                 <div className="relative">
                   <div className="absolute inset-0 bg-gradient-to-br from-amber-400 to-amber-600 rounded-2xl transform rotate-3"></div>
                   <Image
-                    src="/placeholder.svg?height=500&width=600"
+                    src="/about.png"
                     alt="Ministry community gathering"
                     width={600}
                     height={500}
@@ -161,7 +161,7 @@ export default function Component() {
                   <div className="relative">
                     <div className="absolute inset-0 bg-gradient-to-br from-amber-400 to-amber-600 rounded-xl transform rotate-2"></div>
                     <Image
-                      src="/pastor.png"
+                      src="/pastor2.png"
                       alt="Pastor Makinwa"
                       width={400}
                       height={400}

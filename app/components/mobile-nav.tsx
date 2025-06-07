@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
+import { Sheet, SheetContent, SheetTrigger, SheetHeader, SheetTitle, SheetDescription } from "@/components/ui/sheet"
 import { Menu } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
@@ -28,6 +28,10 @@ export function MobileNav() {
         </Button>
       </SheetTrigger>
       <SheetContent side="right" className="w-[300px] sm:w-[400px] bg-white">
+        {/* <SheetHeader>
+          <SheetTitle>Navigation Menu</SheetTitle>
+          <SheetDescription>Navigate through the Kingdom of Light Ministries website sections</SheetDescription>
+        </SheetHeader> */}
         <div className="flex flex-col gap-6 pt-6">
           <div className="flex items-center gap-3">
             <Image
